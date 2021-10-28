@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: burlywood;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: wheat;
+    overflow: auto; /* To make the backgroung color visible*/
+}
+.left-nav{
+    float: left;
+    margin: 20px;
+    padding: 1px 20px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.right-nav{
+    float: right;
+    margin-right: 50px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: green;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    padding: 15px;
+    font-weight: bold;
+}
+.navbar li:hover{
+    background-color: white;
+}
+.home{
+    background-image: url("C:\\Users\\HP\\Documents\\Guestin-Restaurant-Website\\img1.jpeg");
+    height: 620px;
+    width: 100%;    
+}
+.home h1{
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 30px 0px;
+    padding-top: 200px;
+    letter-spacing: 15px;
+}
+.btn{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    margin: 0px 580px;
+    padding: 10px 40px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: transparent;
+    border: 3px solid white;
+    padding: 10px 40px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.container{
+    margin: 120px 30px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.items{
+    border: 2px double black;
+    margin: 10px;
+    width: 350px;
+}
+
+#item1{
+    height: 200px;
+}
+
+#item2{
+    height: 300px;
+}
+
+#item3{
+    height: 530px;
+}
+
+#item4{
+    height: 300px;
+}
+
+#item5{
+    height: 200px;
+} 
+
+.img1{
+    width: 350px;
+    height: 200px;
+}
+
+.img2{
+    width: 350px;
+    height: 300px;
+}
+
+.img3{
+    width: 350px;
+    height: 530px;
+}
+
+.img4{
+    width: 350px;
+    height: 300px;
+}
+
+.img5{
+    width: 350px;
+    height: 200px;
+}
+
+h2{
+    text-align: center;
+}
+
+hr{
+    width: 20%;
+    color: black;
+    text-align: center;
+}
+
+table{
+    margin: auto;
+}
+
+td{
+    padding: 25px 70px;
+    font-size: 20px;
+}
+
+.contacts{
+    padding: 0px 150px;
+    box-sizing: border-box;
+    background-color: black;
+    height: 42vh;
+    width: 100%;
+}
+
+.left{
+    color: white;
+    float: left;
+    padding: 50px;
+}
+
+.middle{
+    color: white;
+    float: left;
+    padding: 50px;
+}
+
+.right{
+    color: white;
+    float: left;
+    padding: 50px;
+}
+
+.right ul{
+    list-style: none;
+}
+
+.right li{
+    float: left;
+    margin: 10px;
+}
+
+.right li:hover{
+    cursor: pointer;
+}
+
+.right h3{
+    text-align: center;
+}
+
+header{
+    background-color: wheat;
+    height: 40px;
+    margin: auto;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+a1{
+    color: white;
+    background: transparent;
+}
+
+
